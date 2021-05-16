@@ -48,8 +48,8 @@ print(fahr_to_celsius(71))
 # Write your answers below:
 
 # YOUR ANSWER HERE. Write your answers as comments
-#
-#
+#   1. yes,it is clear
+#   2. The code can be simplified and written. 
 #
 #
 
