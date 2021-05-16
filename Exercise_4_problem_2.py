@@ -29,11 +29,11 @@ def temp_classifier(temp_celsius):
   #create temp_classifier which classify by value of temp_celsius and return 0 or 1 or 2 or 3
   if  temp_celsius<-2:
     return 0
-  if  temp_celsius>=-2&temp_celsius<2:
+  elif  temp_celsius<2:
     return 1
-  if  temp_celsius>=2&temp_celsius<15:
+  elif  temp_celsius<15:
     return 2
-  if  temp_celsius>=15:
+  else:
     return 3
   
 
@@ -42,10 +42,10 @@ def temp_classifier(temp_celsius):
 
 # 1. What is the class value for 16.5 degrees Celsius?
 # YOUR CODE HERE
-#
+print(temp_classifier(16.5))
 # 2. What is the class value for +2 degrees Celsius?
 # YOUR CODE HERE
-#
+print(temp_classifier(2))
 
 
 # ### Problem 2 tests
@@ -77,11 +77,10 @@ print("ok :)")
 #  - Does your function has an informative dosctring?
 
 # YOUR ANSWER HERE. Write your answer as comments
-#
-#
-#
-#
-#
+
+# all the variable names are correct
+# there are comments and doctring
+
 # YOUR ANSWER ENDS HERE
 
 # #### Done!
